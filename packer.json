@@ -14,9 +14,8 @@
             "region": "us-east-1",
             "secret_key": "{{user `aws_secret_key`}}",
             "source_ami": " ami-07d0cf3af28718ef8",
-              "owners": ["941554936068"],
-              "most_recent": true
-            },
+            "owners": ["941554936068"],
+            "most_recent": true,
             "ssh_username": "ubuntu",
             "type": "amazon-ebs"
         }

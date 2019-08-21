@@ -19,7 +19,7 @@
               "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
               "root-device-type": "ebs"
               },
-              "owners": "amazon",
+              "owners": ["941554936068"],
               "most_recent": true
             },
             "ssh_username": "ubuntu",

@@ -13,7 +13,7 @@
             "instance_type": "t2.micro",
             "region": "us-east-1",
             "secret_key": "{{user `aws_secret_key`}}",
-            "source_ami": " ami-07d0cf3af28718ef8",
+            "source_ami": "ami-07d0cf3af28718ef8",
             "ssh_username": "ubuntu",
             "type": "amazon-ebs"
         }

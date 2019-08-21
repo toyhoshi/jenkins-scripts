@@ -13,12 +13,7 @@
             "instance_type": "t2.micro",
             "region": "us-east-1",
             "secret_key": "{{user `aws_secret_key`}}",
-            "source_ami_filter": {
-              "filters": {
-              "virtualization-type": "hvm",
-              "name": "ubuntu/images/*ubuntu-xenial-16.04-amd64-server-*",
-              "root-device-type": "ebs"
-              },
+            "source_ami": " ami-07d0cf3af28718ef8",
               "owners": ["941554936068"],
               "most_recent": true
             },
